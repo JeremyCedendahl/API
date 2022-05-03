@@ -1,4 +1,3 @@
-Testning av API genom Postman:
 
 1
 GET https://localhost:44370/api/persons
