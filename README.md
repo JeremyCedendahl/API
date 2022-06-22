@@ -1,11 +1,8 @@
 
-1
-GET https://localhost:44370/api/persons
-2
-GET https://localhost:44370/api/persons/hobbies/1
-3
-GET https://localhost:44370/api/persons/links/1
-4
-POST https://localhost:44370/api/personhobbies { "personId": 5, "person": null, "hobbyId": 2, "hobby": null }
-5
-POST https://localhost:44370/api/links { "url": "schack.se/", "personId": 2, "person": null, "hobbyId": 1, "hobby": null }
+Get:
+https://localhost:44329/api/person
+https://localhost:44329/api/person/hobbies/1
+https://localhost:44329/api/person/links/1
+Post:
+https://localhost:44329/api/personhobbies { "personId": 5, "person": null, "hobbyId": 2, "hobby": null } 
+https://localhost:44329/api/links { "url": "schack.se/", "personId": 2, "person": null, "hobbyId": 1, "hobby": null }
